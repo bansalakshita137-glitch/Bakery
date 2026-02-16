@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakery">
         <activity
+            android:name=".Angelina.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Akshita.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
