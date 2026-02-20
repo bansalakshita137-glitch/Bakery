@@ -12,8 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bakery">
         <activity
+<<<<<<< Updated upstream
             android:name=".BottomNavigation1Activity"
             android:exported="false" />
+=======
+            android:name=".Akshita.splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+>>>>>>> Stashed changes
         <activity
             android:name=".BottomNavigationActivity"
             android:exported="true"
